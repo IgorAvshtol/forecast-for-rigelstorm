@@ -1,0 +1,34 @@
+.futureBlock {
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 80%;
+}
+
+.daysBlock {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dayBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 130px;
+    height: 150px;
+    border-radius: 10px;
+    background: url("../../assets/howUse.png") 0 0/100% 100% rgba(241, 240, 232, 0.58);
+}
+
+.temp {
+    font-size: 30px
+}
+
+.day {
+    font-size: 20px
+}

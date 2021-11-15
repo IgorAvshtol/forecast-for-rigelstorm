@@ -1,0 +1,12 @@
+.main {
+  background: url("./assets/main.jpg") 0 0/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app {
+  padding-top: 100px;
+  min-width: 500px;
+  min-height: 500px;
+}

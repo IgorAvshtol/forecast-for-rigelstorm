@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.daysBlock {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dayBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 150px;
+    background: url("../../assets/howUse.png") 0 0/100% 100% rgba(241, 240, 232, 0.58);
+    border-radius: 10px;
+}
+
+.temp {
+    font-size: 30px
+}
+
+.day {
+    font-size: 20px
+}
+
+.navBlock {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    text-decoration: none;
+}
